@@ -66,25 +66,31 @@ class secara dasar dibagi menjadi 3 yaitu Martial, Caster dan Half Caster sebaga
 ![image.png](image%2013.png)
 
 ### 1. Martial
-
-![Screenshot 2026-08-30 215622.png](Screenshot_2026-08-30_215622.png)
-
-![Screenshot 2026-08-30 220107.png](Screenshot_2026-08-30_220107.png)
+Martial Class adalah class yang berfokus ke dalam penggunaan senjata seperti Barbarian. Fighter, Rogue dan Monk. Selain mendapatkan Feture classnya masing-masing, martial class akan mendapatkan feature Weapon Masteries sebagaimana ditunjukan dibawah(Kasus khusus untuk Monk).
 
 ![Screenshot 2026-08-31 230820.png](Screenshot_2026-08-31_230820.png)
 
 ![Screenshot 2026-08-31 231036.png](Screenshot_2026-08-31_231036.png)
 
 ### 2. Caster
-
+Caster Class adalah class yang berfokus ke penggunaan mantra, entah itu serangan, buff ataupun debuff. Dalam Dungeon's & Dragon's mantra dibagi berdasarkan lvl, yaitu lvl 0 sampai 9. Mantra lvl 0 disebut sebagai cantrip karena mantra ini bisa digunakan secara terus menerus tanpa bayaran spell slot. Nah mantra lvl 1-9 untuk kita bisa merapalnya itu ditentukan oleh seberapa banyak spell slot yang kita miliki. 
+Sebagai contoh, seorang Wizard lvl 3 memiliki spell slot lvl 1 sebanyak 4 dan spell slot lvl 2 sebanyak 2. Artinya dia bisa merapal mantra lvl 1 sebanyak 4 kali dan mantra lvl 2 sebanyak 2 kali. 
+untuk penggunaan mantra lebih detail akan dijelaskan seiring waktu jadi silahkan tambahkan Jon's Spell Slot Structure.
 ![image.png](image%2014.png)
 
 ![image.png](image%2015.png)
+bagi Caster, banyaknya mantra yang diketahui terbatas jumlahnya dan hanya bisa bertambah ketika naik lvl (Kasus khusus untuk wizard). Sebagaimana seperti ditunjukan dibawah, kalian memilih cantrip dan mantra yang akan karakter kalian gunakan nanti sejumlah yang sudah ditentukan. (Kasus khusus untuk wizard)
+![[Screenshot 2026-09-03 111510.png]]
+
+![[Screenshot 2026-09-03 112533.png]]
 
 ### 3. Half-Caster
-
+Half-Caster adalah class yang bisa keduanya, meraplakn mantra dan menggunakan senjata. Namun dengan kelebihan tersebut terdapat juga kekurangannya seperti seperti perkembangan spell slot mereka tiap lvl lebih lambat daripada Caster
 ![Screenshot 2026-08-31 232453.png](Screenshot_2026-08-31_232453.png)
 
 ## 6. Languages
+Karena berbagai Species/Ras yang ada di D&D terdapat juga berbagai macam bahasa yang kalian pilih sebagaiamana ditunjukan di bawah.
+![[Screenshot 2026-09-03 115023.png]]
 
+![[Screenshot 2026-09-03 115049.png]]
 ## 7. Extentions - IGNORE !!!
