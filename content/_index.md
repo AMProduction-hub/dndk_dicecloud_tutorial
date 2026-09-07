@@ -99,6 +99,6 @@ Karena berbagai Species/Ras yang ada di D&D terdapat juga berbagai macam bahasa 
 ![[Screenshot 2026-09-03 115049.png]]
 ## Jika sudah selesai maka karakter kalian kurang lebih akan seperti ini.
 Sekarang tinggal membuat character sheet kalian bisa dilihat oleh orang lain. klik tombol titik 3 di pojok kanan atas dan pilih sharing.
-![[content/Screenshot 2026-09-07 225221.png]]
+![[Screenshot 2026-09-07 225221 2.png]]
 Selanjutnya pilih anyone with the link dan klik DONE. Sekarang siapapun yang punya link ke character kalian, bisa melihat character kalian. 
-![[content/Screenshot 2026-09-07 225957.png]]
+![[Screenshot 2026-09-07 225957 6.png]]
