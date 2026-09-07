@@ -1,4 +1,4 @@
-![[Screenshot 2026-09-07 225957 3.png]]![[Screenshot 2026-09-07 225957 2.png]]![[Screenshot 2026-09-07 225957 1.png]]![[Screenshot 2026-09-07 225957.png]]# DiceCloud Tutorial by DnD-K
+# DiceCloud Tutorial by DnD-K
 
 # 1. Membuat Akun DiceCloud
 pertama buka www.dicecloud.com maka akan muncul tampilan seperti ini. jika sudah punya akunya silahkan login, jika belum silahkan daftar menggunakan gmail agar lebih mudah dan ikuti panduannya. 
