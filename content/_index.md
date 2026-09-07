@@ -1,4 +1,4 @@
-# DiceCloud Tutorial by DnD-K
+![[Screenshot 2026-09-07 225957 3.png]]![[Screenshot 2026-09-07 225957 2.png]]![[Screenshot 2026-09-07 225957 1.png]]![[Screenshot 2026-09-07 225957.png]]# DiceCloud Tutorial by DnD-K
 
 # 1. Membuat Akun DiceCloud
 pertama buka www.dicecloud.com maka akan muncul tampilan seperti ini. jika sudah punya akunya silahkan login, jika belum silahkan daftar menggunakan gmail agar lebih mudah dan ikuti panduannya. 
@@ -9,20 +9,17 @@ Kemudian jika sudah login silahkan klik tab Library dan cari Libraries of Vexus 
 ![[Screenshot 2026-09-06 211840.png]]
 
 ![[Screenshot 2026-09-06 213006.png]]
-# 2. Membuka Tab Libraries
+# 
 
-# 3. **Subscribe Libraries of Vexus (5e2024)**
+# 2. Membuat Character
+Klik tab Character maka nanti tampilannya akan seperti gambar dibawah yang menunjukan karakter yang telah kalian buat. Selanjutnya silahkan klik tombol plus di pojok kanan bawah.
+![[Screenshot 2026-09-07 215130.png]]
 
-# **4. Apa itu Libraries of Vexus?**
-
-# **5. Jangan Campur Rules 2014 & 2024**
-
-# **6. Membuat Character**
-
-# **7. Cek Apakah Library Berhasil**
-
-# 8. Pada tab 'BUILD'
-
+Selanjutnya silahkan isi Field sesuai dengan nama fieldnya. 
+![[Screenshot 2026-09-07 215828.png]]
+Jika di bagian Biography sudah terisi semua klik Next. Jika kalian sudah mensubscribe Libraries of Vexus (5e2024) maka library tersebut akan muncul di list seperti gambar dibawah. Lalu centang Libraries of Vexus (5e2024) dan kemudian klik CREATE. 
+![[Screenshot 2026-09-07 215850 1.png]]
+ Kemudian tampilannya akan seperti dibawah ini. 
 ## 1. Sources
 
 Klik Sources -> Check (Centang i) "# Bundle Core Sourcebooks (2024)", "# Bundle: Additional Character Options (2024)", & "# Bundle: Setting Supplements (2024)" -> Klik Insert
@@ -100,4 +97,8 @@ Karena berbagai Species/Ras yang ada di D&D terdapat juga berbagai macam bahasa 
 ![[Screenshot 2026-09-03 115023.png]]
 
 ![[Screenshot 2026-09-03 115049.png]]
-## 7. Extentions - IGNORE !!!
+## Jika sudah selesai maka karakter kalian kurang lebih akan seperti ini.
+Sekarang tinggal membuat character sheet kalian bisa dilihat oleh orang lain. klik tombol titik 3 di pojok kanan atas dan pilih sharing.
+![[Screenshot 2026-09-07 225221 1.png]]
+Selanjutnya pilih anyone with the link dan klik DONE. Sekarang siapapun yang punya link ke character kalian, bisa melihat character kalian. 
+![[Screenshot 2026-09-07 225957 4.png]]
