@@ -1,7 +1,14 @@
 # DiceCloud Tutorial by DnD-K
 
 # 1. Membuat Akun DiceCloud
+pertama buka www.dicecloud.com maka akan muncul tampilan seperti ini. jika sudah punya akunya silahkan login, jika belum silahkan daftar menggunakan gmail agar lebih mudah dan ikuti panduannya. 
+![[Screenshot 2026-09-06 203707.png]]
 
+![[Screenshot 2026-09-06 210343.png]]
+Kemudian jika sudah login silahkan klik tab Library dan cari Libraries of Vexus (5e2024) dan klik subscribe. maka semua content standar untuk 2024 akan otomatis tertambah ke library kalian. Perlu di ingat kita hanya memakai yang 2024 jadi hanya subscribe yang Libraries of Vexus (5e2024) jangan campur dengan Libraries of Vexus (5e2014)
+![[Screenshot 2026-09-06 211840.png]]
+
+![[Screenshot 2026-09-06 213006.png]]
 # 2. Membuka Tab Libraries
 
 # 3. **Subscribe Libraries of Vexus (5e2024)**
