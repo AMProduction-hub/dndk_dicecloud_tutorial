@@ -124,7 +124,7 @@ Class secara dasar dibagi menjadi 3 yaitu Martial, Caster dan Half Caster sebaga
 >
 > ![[Screenshot 2026-09-03 115049.png]]
 
-### 7. Selesai & Sharing
+### 7. Sharing & Import ke Avrae
 
 > [!example]- Bagikan character sheet
 > Jika sudah selesai maka karakter kalian kurang lebih akan seperti ini. Sekarang tinggal membuat character sheet kalian bisa dilihat oleh orang lain. Klik tombol titik 3 di pojok kanan atas dan pilih sharing.
@@ -132,3 +132,8 @@ Class secara dasar dibagi menjadi 3 yaitu Martial, Caster dan Half Caster sebaga
 >
 > Selanjutnya pilih anyone with the link dan klik DONE. Sekarang siapapun yang punya link ke character kalian, bisa melihat character kalian.
 > ![[Screenshot 2026-09-07 225957.png]]
+> 
+> Selanjutnya copy link character kalian dan kemudian buka channel {channel command avrae} dan ketikan perintah ini.
+> ```text !import https://dicecloud.com/character/link-character-kalian```
+> lalu kemudian enter, jika link kalian benar maka stat charactec kalian akan muncul seperti gambar dibawah.
+> ![[Screenshot 2026-09-08 231533.png]]
