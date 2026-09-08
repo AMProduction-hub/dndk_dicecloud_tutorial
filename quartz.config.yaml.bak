@@ -16,29 +16,29 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: EB Garamond
-      body: Inter
+      header: Schibsted Grotesk
+      body: Source Sans Pro
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f0e6d6"
-        lightgray: "#d9cdb8"
-        gray: "#a39988"
-        darkgray: "#164194"
-        dark: "#164194"
-        secondary: "#1b8193"
-        tertiary: "#5dbbf0"
-        highlight: rgba(27, 129, 147, 0.12)
+        light: "#faf8f8"
+        lightgray: "#e5e5e5"
+        gray: "#b8b8b8"
+        darkgray: "#4e4e4e"
+        dark: "#2b2b2b"
+        secondary: "#284b63"
+        tertiary: "#84a59d"
+        highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#122a4d"
-        lightgray: "#2a4066"
-        gray: "#5c798e"
-        darkgray: "#d8e0ea"
-        dark: "#f0e6d6"
-        secondary: "#5dbbf0"
-        tertiary: "#34b8c9"
-        highlight: rgba(93, 187, 240, 0.15)
+        light: "#161618"
+        lightgray: "#393639"
+        gray: "#646464"
+        darkgray: "#d4d4d4"
+        dark: "#ebebec"
+        secondary: "#7b97aa"
+        tertiary: "#84a59d"
+        highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
@@ -230,6 +230,7 @@ plugins:
     enabled: true
     options:
       links:
+        # TODO: replace with DnD-K's real URLs
         Discord DnD-K: https://discord.gg/YU6RVMDN7X
         Instagram DnD-K: https://www.instagram.com/dndkediri/
     layout:

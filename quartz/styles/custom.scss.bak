@@ -25,97 +25,14 @@
 
 // ---------------------------------------------------------------------------
 // 2. Step fold-ins ([!example]) tinted to the site accent instead of purple.
-//    Uses teal accent per DESIGN.md Coastal Risograph palette.
+//    Three competing hues (purple steps / blue links / orange warnings) →
+//    one accent hue + one alert hue.
 // ---------------------------------------------------------------------------
 .callout[data-callout="example"] {
   --color: var(--secondary);
   --border: color-mix(in srgb, var(--secondary) 27%, transparent);
   --bg: color-mix(in srgb, var(--secondary) 6%, transparent);
 }
-
-// Warning callout → coral/sunset per DESIGN.md status tones (not generic orange)
-.callout[data-callout="warning"] {
-  --color: #d45b5b;
-  --border: #d45b5b44;
-  --bg: #d45b5b10;
-}
-
-// ---------------------------------------------------------------------------
-// Coastal Risograph surface treatment (DESIGN.md)
-// - Square corners everywhere (0px — cut-paper feel)
-// - White "paper" panels floating on sand background
-// - Flat ink-registration shadow, no blur
-// ---------------------------------------------------------------------------
-:root[saved-theme="light"] {
-  body,
-  .page {
-    background-color: var(--light);
-  }
-
-  .sidebar,
-  .page > #quartz-body > .sidebar {
-    background-color: transparent;
-  }
-
-  article,
-  .center > article {
-    background-color: #ffffff;
-    padding: 1.5rem 2rem;
-    box-shadow: 3px 3px 0 rgba(22, 65, 148, 0.15);
-  }
-
-  .callout,
-  .popover-inner,
-  .search-container > .search-space,
-  button.search-button {
-    border-radius: 0px;
-  }
-
-  h1,
-  h2,
-  h3,
-  .page-title,
-  .article-title {
-    font-family: "EB Garamond", "Times New Roman", serif;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    font-weight: 600;
-  }
-
-  .article-title {
-    font-size: 2rem;
-  }
-}
-
-:root[saved-theme="dark"] {
-  article,
-  .center > article {
-    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.35);
-  }
-
-  .callout,
-  .popover-inner,
-  .search-container > .search-space,
-  button.search-button {
-    border-radius: 0px;
-  }
-
-  h1,
-  h2,
-  h3,
-  .page-title,
-  .article-title {
-    font-family: "EB Garamond", "Times New Roman", serif;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    font-weight: 600;
-  }
-
-  .article-title {
-    font-size: 2rem;
-  }
-}
-
 
 // ---------------------------------------------------------------------------
 // 3. Pressable buttons confirm the press (darkmode, reader-mode, search, hamburger)
