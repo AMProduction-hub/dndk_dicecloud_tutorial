@@ -23,13 +23,13 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 >
 > **Syntax**
 >
-> ```
+> ```text
 > !roll <dice>
 > ```
 >
 > **Contoh**
 >
-> ```
+> ```text
 > !roll 1d20
 > !roll 2d6+3
 > !roll 1d20+5
@@ -37,9 +37,51 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 >
 > **Shortcut**
 >
-> ```
+> ```text
 > !r 1d20
 > ```
+>
+> ---
+>
+> ## Advantage
+>
+> Melakukan roll **2 kali** dan mengambil hasil yang lebih tinggi.
+>
+> Gunakan `adv` setelah dice roll.
+>
+> **Contoh**
+>
+> ```text
+> !roll 1d20 adv
+> ```
+>
+> Shortcut:
+>
+> ```text
+> !r 1d20 adv
+> ```
+>
+> ---
+>
+> ## Disadvantage
+>
+> Melakukan roll **2 kali** dan mengambil hasil yang lebih rendah.
+>
+> Gunakan `dis` setelah dice roll.
+>
+> **Contoh**
+>
+> ```text
+> !roll 1d20 dis
+> ```
+>
+> Shortcut:
+>
+> ```text
+> !r 1d20 dis
+> ```
+>
+> ---
 >
 > ## `!rr`
 >
@@ -47,12 +89,17 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 >
 > **Contoh**
 >
-> ```
+> ```text
 > !rr 2 1d20
 > ```
 >
 > > [!tip]
-> > Untuk penggunaan sehari-hari, `!roll` adalah command dice yang paling penting untuk diketahui.
+> > Untuk penggunaan sehari-hari, yang paling penting untuk diingat adalah:
+> >
+> > - `!roll 1d20` → normal roll
+> > - `!roll 1d20 adv` → advantage
+> > - `!roll 1d20 dis` → disadvantage
+> > - `!r` → shortcut dari `!roll`
 
 > [!example]- 🧙 Character
 > Command untuk mengatur dan menggunakan character aktif.
