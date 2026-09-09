@@ -23,13 +23,13 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 >
 > **Syntax**
 >
-> ```text
+> ```
 > !roll <dice>
 > ```
 >
 > **Contoh**
 >
-> ```text
+> ```
 > !roll 1d20
 > !roll 2d6+3
 > !roll 1d20+5
@@ -37,7 +37,7 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 >
 > **Shortcut**
 >
-> ```text
+> ```
 > !r 1d20
 > ```
 >
@@ -47,7 +47,7 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 >
 > **Contoh**
 >
-> ```text
+> ```
 > !rr 2 1d20
 > ```
 >
