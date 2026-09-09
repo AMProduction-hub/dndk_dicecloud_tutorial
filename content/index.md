@@ -75,15 +75,16 @@ Kemudian tampilannya akan seperti dibawah ini.
 
 ### 5. Starting Class
 
-Starting Class adalah Class yang kalian pilih ketika memulai petualangan, dimana apa yang didapatkan akan berbeda jika kalian memilih classnya tidak lvl satu karena kalian tidak akan mendapat starting equipment dari class tersebut.
-Class secara dasar dibagi menjadi 3 yaitu Martial, Caster dan Half Caster sebagaimana dijelaskan lebih lengkap dibawah.
-
-![image.png](image%2010.png)
-
+> [!example]- Class atau Job
+> Starting Class adalah Class yang kalian pilih ketika memulai petualangan, dimana apa yang didapatkan akan berbeda jika kalian memilih classnya tidak lvl satu karena kalian tidak akan mendapat starting equipment dari class tersebut.
+> Class secara dasar dibagi menjadi 3 yaitu Martial, Caster dan Half Caster sebagaimana dijelaskan lebih lengkap dibawah.
+>
+> ![image.png](image%2010.png)
+>
 ![image.png](image%2011.png)
-
+>
 ![image.png](image%2012.png)
-
+>
 ![image.png](image%2013.png)
 
 #### Martial
