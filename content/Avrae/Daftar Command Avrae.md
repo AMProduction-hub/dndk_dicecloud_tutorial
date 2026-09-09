@@ -1,64 +1,673 @@
-# Avrae Commands
+---
+title: Command Avrae
+description: Referensi command Avrae yang paling penting untuk bermain D&D di Discord.
+tags:
+  - Avrae
+  - D&D
+  - Discord
+  - Commands
+type: reference
+---
 
-## 🎲 Dice & Rolling
-Command yang berhubungan dengan dadu dan perhitungan.
-### `!roll`
+# 🟢 NON-BATTLE
 
-Melakukan roll dadu.
+Command yang digunakan **di luar combat** untuk mengelola character, melakukan dice roll, mencari informasi, dan kebutuhan lainnya.
 
-**Syntax:**
+---
 
-```
-!roll <dice>
-```
+> [!note]- 🎲 Dice & Rolling
+> 
+> Command untuk melakukan roll dadu secara manual.
+> 
+> ## `!roll`
+> 
+> Melakukan roll dadu.
+> 
+> **Syntax**
+> 
+> ```text
+> !roll <dice>
+> ```
+> 
+> **Contoh**
+> 
+> ```text
+> !roll 1d20
+> !roll 2d6+3
+> !roll 1d20+5
+> ```
+> 
+> **Shortcut**
+> 
+> ```text
+> !r 1d20
+> ```
+> 
+> ---
+> 
+> ## `!rr`
+> 
+> Melakukan multiple roll.
+> 
+> **Contoh**
+> 
+> ```text
+> !rr 2 1d20
+> ```
+> 
+> > [!tip]  
+> > Untuk penggunaan sehari-hari, `!roll` adalah command dice yang paling penting untuk diketahui.
 
-**Contoh:**
+---
 
-```
-!roll 1d20
-!roll 2d6+3
-!roll 1d20+5
-```
-## 🧙 Character
-Command untuk mengelola dan melihat character.
-### `!character`
+> [!note]- 🧙 Character
+> 
+> Command untuk mengatur dan menggunakan character aktif.
+> 
+> ## `!character`
+> 
+> Melihat atau mengganti character aktif.
+> 
+> **Contoh**
+> 
+> ```text
+> !character
+> ```
+> 
+> ```text
+> !character NamaCharacter
+> ```
+> 
+> ---
+> 
+> ## `!character list`
+> 
+> Melihat daftar character yang dimiliki.
+> 
+> ```text
+> !character list
+> ```
+> 
+> ---
+> 
+> ## `!import`
+> 
+> Mengimpor character sheet ke Avrae.
+> 
+> **Contoh**
+> 
+> ```text
+> !import <link-character-sheet>
+> ```
+> 
+> ---
+> 
+> ## `!sheet`
+> 
+> Menampilkan character sheet aktif.
+> 
+> ```text
+> !sheet
+> ```
+> 
+> ---
+> 
+> ## `!update`
+> 
+> Memperbarui character sheet aktif.
+> 
+> ```text
+> !update
+> ```
 
-Melihat atau mengganti character aktif.
+---
 
-**Syntax:**
+> [!note]- 🔎 Lookup
+> 
+> Digunakan untuk mencari informasi D&D.
+> 
+> ## `!monster`
+> 
+> Mencari informasi monster.
+> 
+> ```text
+> !monster goblin
+> ```
+> 
+> ---
+> 
+> ## `!spell`
+> 
+> Mencari informasi spell.
+> 
+> ```text
+> !spell fireball
+> ```
+> 
+> ---
+> 
+> ## `!item`
+> 
+> Mencari informasi item.
+> 
+> ```text
+> !item longsword
+> ```
+> 
+> ---
+> 
+> ## `!class`
+> 
+> Mencari informasi class.
+> 
+> ```text
+> !class fighter
+> ```
+> 
+> ---
+> 
+> ## `!race`
+> 
+> Mencari informasi species/race.
+> 
+> ```text
+> !race elf
+> ```
+> 
+> ---
+> 
+> ## `!feat`
+> 
+> Mencari informasi feat.
+> 
+> ```text
+> !feat sharpshooter
+> ```
+> 
+> ---
+> 
+> ## `!condition`
+> 
+> Mencari informasi condition.
+> 
+> ```text
+> !condition poisoned
+> ```
+> 
+> ---
+> 
+> ## `!rule`
+> 
+> Mencari informasi rule D&D.
+> 
+> ```text
+> !rule cover
+> ```
 
-```
-!character [name]
-```
+---
 
-**Contoh:**
+> [!note]- ❤️ Character Status
+> 
+> Command untuk melihat dan mengelola kondisi character di luar combat.
+> 
+> ## `!game status`
+> 
+> Melihat status character.
+> 
+> ```text
+> !game status
+> ```
+> 
+> ---
+> 
+> ## `!game hp`
+> 
+> Mengubah HP character.
+> 
+> ```text
+> !game hp 25
+> ```
+> 
+> Untuk menambah/mengurangi HP:
+> 
+> ```text
+> !game hp mod 5
+> ```
+> 
+> ---
+> 
+> ## `!game thp`
+> 
+> Mengatur temporary HP.
+> 
+> ```text
+> !game thp 10
+> ```
+> 
+> ---
+> 
+> ## `!game longrest`
+> 
+> Melakukan long rest.
+> 
+> ```text
+> !game longrest
+> ```
+> 
+> Shortcut:
+> 
+> ```text
+> !lr
+> ```
+> 
+> ---
+> 
+> ## `!game shortrest`
+> 
+> Melakukan short rest.
+> 
+> ```text
+> !game shortrest
+> ```
+> 
+> Shortcut:
+> 
+> ```text
+> !sr
+> ```
 
-```
-!character
-!character MyCharacter
-```
-## ⚔️ Combat
+---
 
-## 🏹 Attack & Action
+> [!note]- ✨ Spell & Spellbook
+> 
+> Command untuk melihat dan menggunakan spell di luar combat.
+> 
+> ## `!spell`
+> 
+> Mencari informasi spell.
+> 
+> ```text
+> !spell fireball
+> ```
+> 
+> ---
+> 
+> ## `!spellbook`
+> 
+> Melihat spell yang tersedia pada character.
+> 
+> ```text
+> !spellbook
+> ```
+> 
+> ---
+> 
+> ## `!cast`
+> 
+> Menggunakan spell dari character aktif.
+> 
+> ```text
+> !cast fireball
+> ```
+> 
+> > [!tip]  
+> > Penggunaan `!cast` biasanya lebih relevan ketika sedang berada dalam combat, tetapi command ini juga dapat digunakan di luar combat.
 
-## ✨ Spell
+---
 
-## ❤️ HP, Rest & Resource
+> [!note]- 🛠️ Utility
+> 
+> Command sederhana untuk kebutuhan umum.
+> 
+> ## `!ping`
+> 
+> Mengecek apakah Avrae merespons.
+> 
+> ```text
+> !ping
+> ```
+> 
+> ---
+> 
+> ## `!invite`
+> 
+> Mendapatkan link untuk mengundang Avrae.
+> 
+> ```text
+> !invite
+> ```
 
-## 📋 Initiative
+---
 
-## 🔎 Lookup
+# 🔴 BATTLE
 
-## 🎒 Inventory & Equipment
+Command yang digunakan ketika **combat sedang berlangsung**.
 
-## 🏠 Campaign & Server
+> [!note]- ⚔️ Memulai Combat
+> 
+> ## `!init begin`
+> 
+> Memulai initiative tracker.
+> 
+> ```text
+> !init begin
+> ```
+> 
+> Setelah combat dimulai, setiap peserta dapat bergabung menggunakan:
+> 
+> ```text
+> !init join
+> ```
+> 
+> atau:
+> 
+> ```text
+> !init add
+> ```
+> 
+> ---
+> 
+> ## `!init list`
+> 
+> Melihat daftar peserta combat.
+> 
+> ```text
+> !init list
+> ```
 
-## 🛠️ Alias & Automation
+---
 
-## 🧩 Customization
+> [!note]- 📋 Initiative
+> 
+> Command utama untuk mengatur giliran combat.
+> 
+> ## `!init next`
+> 
+> Berpindah ke combatant berikutnya.
+> 
+> ```text
+> !init next
+> ```
+> 
+> Shortcut:
+> 
+> ```text
+> !init n
+> ```
+> 
+> ---
+> 
+> ## `!init`
+> 
+> Melihat status initiative saat ini.
+> 
+> ```text
+> !init
+> ```
+> 
+> ---
+> 
+> ## `!init join`
+> 
+> Menambahkan character aktif ke combat.
+> 
+> ```text
+> !init join
+> ```
+> 
+> ---
+> 
+> ## `!init end`
+> 
+> Mengakhiri combat.
+> 
+> ```text
+> !init end
+> ```
 
-## 🏗️ Homebrew
+---
 
-## 📢 Utility
+> [!note]- 🗡️ Attack & Action
+> 
+> Command untuk melakukan attack atau action menggunakan character aktif.
+> 
+> ## `!attack`
+> 
+> Melakukan attack.
+> 
+> ```text
+> !attack Longsword
+> ```
+> 
+> Shortcut:
+> 
+> ```text
+> !a Longsword
+> ```
+> 
+> ---
+> 
+> ## `!action`
+> 
+> Melakukan action menggunakan character aktif.
+> 
+> ```text
+> !action Dash
+> ```
+> 
+> > [!tip]  
+> > Nama attack/action biasanya mengikuti data yang tersedia pada character sheet Anda.
 
-## 📚 Tutorial & Help
+---
+
+> [!note]- ✨ Cast Spell
+> 
+> Command untuk menggunakan spell selama combat.
+> 
+> ## `!cast`
+> 
+> Melakukan casting spell.
+> 
+> ```text
+> !cast fireball
+> ```
+> 
+> Contoh spell dengan target:
+> 
+> ```text
+> !cast cure wounds -t NamaCharacter
+> ```
+> 
+> ---
+> 
+> ## `!init cast`
+> 
+> Melakukan casting spell melalui initiative tracker.
+> 
+> ```text
+> !init cast fireball
+> ```
+
+---
+
+> [!note]- 🛡️ Check & Saving Throw
+> 
+> Command untuk melakukan ability check dan saving throw.
+> 
+> ## `!check`
+> 
+> Melakukan ability check.
+> 
+> ```text
+> !check perception
+> ```
+> 
+> Contoh:
+> 
+> ```text
+> !check stealth
+> ```
+> 
+> ---
+> 
+> ## `!save`
+> 
+> Melakukan saving throw.
+> 
+> ```text
+> !save dex
+> ```
+> 
+> ---
+> 
+> ## `!init check`
+> 
+> Melakukan ability check sebagai bagian dari combat.
+> 
+> ```text
+> !init check perception
+> ```
+> 
+> ---
+> 
+> ## `!init save`
+> 
+> Melakukan saving throw sebagai bagian dari combat.
+> 
+> ```text
+> !init save dex
+> ```
+
+---
+
+> [!note]- ❤️ HP & Status
+> 
+> Command untuk mengelola HP dan kondisi combatant.
+> 
+> ## `!game hp`
+> 
+> Mengubah HP character aktif.
+> 
+> ```text
+> !game hp mod -5
+> ```
+> 
+> ---
+> 
+> ## `!init hp`
+> 
+> Mengubah HP combatant dalam initiative tracker.
+> 
+> ```text
+> !init hp NamaCharacter 20
+> ```
+> 
+> ---
+> 
+> ## `!init thp`
+> 
+> Mengatur temporary HP combatant.
+> 
+> ```text
+> !init thp NamaCharacter 10
+> ```
+> 
+> ---
+> 
+> ## `!init status`
+> 
+> Melihat status combatant.
+> 
+> ```text
+> !init status
+> ```
+
+---
+
+> [!note]- 🔄 Turn & Combat Management
+> 
+> Command untuk mengatur jalannya combat.
+> 
+> ## `!init next`
+> 
+> Berpindah ke turn berikutnya.
+> 
+> ```text
+> !init next
+> ```
+> 
+> ---
+> 
+> ## `!init prev`
+> 
+> Kembali ke turn sebelumnya.
+> 
+> ```text
+> !init prev
+> ```
+> 
+> ---
+> 
+> ## `!init move`
+> 
+> Berpindah ke combatant tertentu.
+> 
+> ```text
+> !init move NamaCharacter
+> ```
+> 
+> ---
+> 
+> ## `!init end`
+> 
+> Mengakhiri combat.
+> 
+> ```text
+> !init end
+> ```
+
+---
+
+# ❓ HELP & REFERENSI
+
+> [!note]- ❓ Help
+> 
+> ## `!help`
+> 
+> Melihat bantuan Avrae.
+> 
+> ```text
+> !help
+> ```
+> 
+> Untuk command tertentu:
+> 
+> ```text
+> !help roll
+> ```
+> 
+> ```text
+> !help init
+> ```
+> 
+> ```text
+> !help attack
+> ```
+> 
+> > [!tip]  
+> > Jika Anda lupa cara menggunakan sebuah command, `!help <command>` adalah cara paling aman untuk melihat syntax yang tersedia di server Anda.
+> 
+> ---
+> 
+> ## `!tutorial`
+> 
+> Menjalankan tutorial Avrae.
+> 
+> ```text
+> !tutorial
+> ```
+
+---
+
+> [!warning] Catatan  
+> Prefix Avrae secara default adalah `!`, tetapi administrator server dapat mengubahnya. Jika `!command` tidak bekerja, tanyakan prefix Avrae yang digunakan pada server.
