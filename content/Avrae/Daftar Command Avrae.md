@@ -41,8 +41,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > !r 1d20
 > ```
 >
-> ---
->
 > ## Advantage
 >
 > Melakukan roll **2 kali** dan mengambil hasil yang lebih tinggi.
@@ -61,8 +59,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > !r 1d20 adv
 > ```
 >
-> ---
->
 > ## Disadvantage
 >
 > Melakukan roll **2 kali** dan mengambil hasil yang lebih rendah.
@@ -80,8 +76,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > ```text
 > !r 1d20 dis
 > ```
->
-> ---
 >
 > ## `!rr`
 >
