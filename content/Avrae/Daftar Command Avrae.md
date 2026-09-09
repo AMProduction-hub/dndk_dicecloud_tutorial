@@ -8,29 +8,23 @@ tags:
   - Commands
 type: reference
 ---
-
+Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&D. Command dibagi menjadi **Non-Battle** dan **Battle** agar lebih mudah ditemukan.
 # 🟢 NON-BATTLE
 
 Command yang digunakan **di luar combat** untuk mengelola character, melakukan dice roll, mencari informasi, dan kebutuhan lainnya.
 
----
-
 > [!note]- 🎲 Dice & Rolling
 > 
 > Command untuk melakukan roll dadu secara manual.
-> 
 > ## `!roll`
 > 
 > Melakukan roll dadu.
-> 
 > **Syntax**
-> 
 > ```text
 > !roll <dice>
 > ```
 > 
 > **Contoh**
-> 
 > ```text
 > !roll 1d20
 > !roll 2d6+3
@@ -38,7 +32,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > ```
 > 
 > **Shortcut**
-> 
 > ```text
 > !r 1d20
 > ```
@@ -46,19 +39,15 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > ---
 > 
 > ## `!rr`
-> 
 > Melakukan multiple roll.
 > 
 > **Contoh**
-> 
 > ```text
 > !rr 2 1d20
 > ```
 > 
 > > [!tip]  
 > > Untuk penggunaan sehari-hari, `!roll` adalah command dice yang paling penting untuk diketahui.
-
----
 
 > [!note]- 🧙 Character
 > 
@@ -119,8 +108,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > ```text
 > !update
 > ```
-
----
 
 > [!note]- 🔎 Lookup
 > 
@@ -204,8 +191,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > !rule cover
 > ```
 
----
-
 > [!note]- ❤️ Character Status
 > 
 > Command untuk melihat dan mengelola kondisi character di luar combat.
@@ -276,8 +261,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > !sr
 > ```
 
----
-
 > [!note]- ✨ Spell & Spellbook
 > 
 > Command untuk melihat dan menggunakan spell di luar combat.
@@ -312,8 +295,6 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > 
 > > [!tip]  
 > > Penggunaan `!cast` biasanya lebih relevan ketika sedang berada dalam combat, tetapi command ini juga dapat digunakan di luar combat.
-
----
 
 > [!note]- 🛠️ Utility
 > 
@@ -375,8 +356,6 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init list
 > ```
 
----
-
 > [!note]- 📋 Initiative
 > 
 > Command utama untuk mengatur giliran combat.
@@ -425,8 +404,6 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init end
 > ```
 
----
-
 > [!note]- 🗡️ Attack & Action
 > 
 > Command untuk melakukan attack atau action menggunakan character aktif.
@@ -458,8 +435,6 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > > [!tip]  
 > > Nama attack/action biasanya mengikuti data yang tersedia pada character sheet Anda.
 
----
-
 > [!note]- ✨ Cast Spell
 > 
 > Command untuk menggunakan spell selama combat.
@@ -487,8 +462,6 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > ```text
 > !init cast fireball
 > ```
-
----
 
 > [!note]- 🛡️ Check & Saving Throw
 > 
@@ -538,8 +511,6 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init save dex
 > ```
 
----
-
 > [!note]- ❤️ HP & Status
 > 
 > Command untuk mengelola HP dan kondisi combatant.
@@ -581,8 +552,6 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > ```text
 > !init status
 > ```
-
----
 
 > [!note]- 🔄 Turn & Combat Management
 > 
