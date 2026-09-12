@@ -34,10 +34,9 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 
 ## 🟢 Non-Battle
 
-> Command yang digunakan **di luar combat** — untuk mengelola character, melakukan dice roll, mencari informasi, dan kebutuhan lainnya.
+Command yang digunakan **di luar combat** — untuk mengelola character, melakukan dice roll, mencari informasi, dan kebutuhan lainnya.
 
 > [!example]- 🎲 Dice & Rolling
-
 > ### `!roll`
 > 
 > Melakukan roll dadu.
@@ -89,7 +88,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > > - `!r` → shortcut dari `!roll`
 
 > [!example]- 🧙 Character
-
 > ### `!character`
 > 
 > Melihat atau mengganti character aktif.
@@ -134,7 +132,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > ```
 
 > [!example]- 🔎 Lookup
-
 > Digunakan untuk mencari informasi D&D.
 > 
 > |Command|Kegunaan|Contoh|
@@ -149,7 +146,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > |`!rule`|Info rule D&D|`!rule cover`|
 
 > [!example]- ❤️ Character Status
-
 > ### `!game status`
 > 
 > Melihat status character.
@@ -201,7 +197,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > **Shortcut:** `!sr`
 
 > [!example]- ✨ Spell & Spellbook
-
 > ### `!spell`
 > 
 > Mencari informasi spell.
@@ -231,7 +226,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > > Penggunaan `!cast` biasanya lebih relevan ketika sedang berada dalam combat, tetapi command ini juga dapat digunakan di luar combat.
 
 > [!example]- 🛠️ Utility
-
 > ### `!ping`
 > 
 > Mengecek apakah Avrae merespons.
@@ -252,10 +246,9 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 
 ## 🔴 Battle
 
-> Command yang digunakan ketika **combat sedang berlangsung**.
+Command yang digunakan ketika **combat sedang berlangsung**.
 
 > [!example]- ⚔️ Memulai Combat
-
 > ### `!init begin`
 > 
 > Memulai initiative tracker.
@@ -277,7 +270,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > ```
 
 > [!example]- 📋 Initiative
-
 > Command utama untuk mengatur giliran combat.
 > 
 > |Command|Kegunaan|Shortcut|
@@ -289,7 +281,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > |`!init end`|Mengakhiri combat|—|
 
 > [!example]- 🗡️ Attack & Action
-
 > ### `!attack`
 > 
 > Melakukan attack.
@@ -305,7 +296,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > > Nama attack/action biasanya mengikuti data yang tersedia pada character sheet Anda.
 
 > [!example]- ✨ Cast Spell
-
 > ### `!cast`
 > 
 > Melakukan casting spell.
@@ -329,7 +319,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > ```
 
 > [!example]- 🛡️ Check & Saving Throw
-
 > ### `!check`
 > 
 > Melakukan ability check.
@@ -357,7 +346,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > ```
 
 > [!example]- ❤️ HP & Status
-
 > ### `!game hp`
 > 
 > Mengubah HP character aktif.
@@ -391,7 +379,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 > ```
 
 > [!example]- 🔄 Turn & Combat Management
-
 > |Command|Kegunaan|
 > |---|---|
 > |`!init next`|Berpindah ke turn berikutnya|
@@ -404,7 +391,6 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 ## ❓ Help & Referensi
 
 > [!example]- ❓ Help
-
 > ### `!help`
 > 
 > Melihat bantuan Avrae.
