@@ -37,6 +37,7 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 Command yang digunakan **di luar combat** — untuk mengelola character, melakukan dice roll, mencari informasi, dan kebutuhan lainnya.
 
 > [!example]- 🎲 Dice & Rolling
+> 
 > ### `!roll`
 > 
 > Melakukan roll dadu.
@@ -80,14 +81,15 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !rr 2 1d20
 > ```
 > 
-> [!tip] Yang paling sering dipakai
-> 
+> > [!tip] Yang paling sering dipakai
+> > 
 > > - `!roll 1d20` → normal roll
 > > - `!roll 1d20 adv` → advantage
 > > - `!roll 1d20 dis` → disadvantage
 > > - `!r` → shortcut dari `!roll`
 
 > [!example]- 🧙 Character
+> 
 > ### `!character`
 > 
 > Melihat atau mengganti character aktif.
@@ -131,8 +133,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !update
 > ```
 
-> [!example]- 🔎 Lookup
-> Digunakan untuk mencari informasi D&D.
+> [!example]- 🔎 Lookup Digunakan untuk mencari informasi D&D.
 > 
 > |Command|Kegunaan|Contoh|
 > |---|---|---|
@@ -146,6 +147,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > |`!rule`|Info rule D&D|`!rule cover`|
 
 > [!example]- ❤️ Character Status
+> 
 > ### `!game status`
 > 
 > Melihat status character.
@@ -197,6 +199,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > **Shortcut:** `!sr`
 
 > [!example]- ✨ Spell & Spellbook
+> 
 > ### `!spell`
 > 
 > Mencari informasi spell.
@@ -221,11 +224,10 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !cast fireball
 > ```
 > 
-> [!tip]
-> 
-> > Penggunaan `!cast` biasanya lebih relevan ketika sedang berada dalam combat, tetapi command ini juga dapat digunakan di luar combat.
+> > [!tip] Penggunaan `!cast` biasanya lebih relevan ketika sedang berada dalam combat, tetapi command ini juga dapat digunakan di luar combat.
 
 > [!example]- 🛠️ Utility
+> 
 > ### `!ping`
 > 
 > Mengecek apakah Avrae merespons.
@@ -249,6 +251,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 Command yang digunakan ketika **combat sedang berlangsung**.
 
 > [!example]- ⚔️ Memulai Combat
+> 
 > ### `!init begin`
 > 
 > Memulai initiative tracker.
@@ -269,8 +272,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init add
 > ```
 
-> [!example]- 📋 Initiative
-> Command utama untuk mengatur giliran combat.
+> [!example]- 📋 Initiative Command utama untuk mengatur giliran combat.
 > 
 > |Command|Kegunaan|Shortcut|
 > |---|---|---|
@@ -281,6 +283,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > |`!init end`|Mengakhiri combat|—|
 
 > [!example]- 🗡️ Attack & Action
+> 
 > ### `!attack`
 > 
 > Melakukan attack.
@@ -291,11 +294,10 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > 
 > **Shortcut:** `!a Longsword`
 > 
-> [!tip]
-> 
-> > Nama attack/action biasanya mengikuti data yang tersedia pada character sheet Anda.
+> > [!tip] Nama attack/action biasanya mengikuti data yang tersedia pada character sheet Anda.
 
 > [!example]- ✨ Cast Spell
+> 
 > ### `!cast`
 > 
 > Melakukan casting spell.
@@ -319,6 +321,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > ```
 
 > [!example]- 🛡️ Check & Saving Throw
+> 
 > ### `!check`
 > 
 > Melakukan ability check.
@@ -346,6 +349,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > ```
 
 > [!example]- ❤️ HP & Status
+> 
 > ### `!game hp`
 > 
 > Mengubah HP character aktif.
@@ -379,6 +383,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > ```
 
 > [!example]- 🔄 Turn & Combat Management
+> 
 > |Command|Kegunaan|
 > |---|---|
 > |`!init next`|Berpindah ke turn berikutnya|
@@ -391,6 +396,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 ## ❓ Help & Referensi
 
 > [!example]- ❓ Help
+> 
 > ### `!help`
 > 
 > Melihat bantuan Avrae.
@@ -407,9 +413,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !help attack
 > ```
 > 
-> [!tip]
-> 
-> > Jika Anda lupa cara menggunakan sebuah command, `!help <command>` adalah cara paling aman untuk melihat syntax yang tersedia di server Anda.
+> > [!tip] Jika Anda lupa cara menggunakan sebuah command, `!help <command>` adalah cara paling aman untuk melihat syntax yang tersedia di server Anda.
 > 
 > ### `!tutorial`
 > 
