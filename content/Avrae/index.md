@@ -38,7 +38,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 
 > [!example]- 🎲 Dice & Rolling
 > 
-> ### `!roll`
+> ## `!roll`
 > 
 > Melakukan roll dadu.
 > 
@@ -60,7 +60,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > ---
 > 
-> ### Advantage & Disadvantage
+> ## Advantage & Disadvantage
 > 
 > Melakukan roll **2 kali** dan mengambil hasil yang lebih tinggi (_advantage_) atau lebih rendah (_disadvantage_).
 > 
@@ -71,7 +71,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > ---
 > 
-> ### `!rr`
+> ## `!rr`
 > 
 > Melakukan multiple roll sekaligus.
 > 
@@ -90,7 +90,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 
 > [!example]- 🧙 Character
 > 
-> ### `!character`
+> # `!character`
 > 
 > Melihat atau mengganti character aktif.
 > 
@@ -109,7 +109,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !character list
 > ```
 > 
-> ### `!import`
+> # `!import`
 > 
 > Mengimpor character sheet ke Avrae.
 > 
@@ -117,7 +117,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !import <link-character-sheet>
 > ```
 > 
-> ### `!sheet`
+> # `!sheet`
 > 
 > Menampilkan character sheet aktif.
 > 
@@ -125,7 +125,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !sheet
 > ```
 > 
-> ### `!update`
+> # `!update`
 > 
 > Memperbarui character sheet aktif.
 > 
@@ -148,7 +148,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 
 > [!example]- ❤️ Character Status
 > 
-> ### `!game status`
+> #### `!game status`
 > 
 > Melihat status character.
 > 
@@ -156,7 +156,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !game status
 > ```
 > 
-> ### `!game hp`
+> #### `!game hp`
 > 
 > Mengubah HP character.
 > 
@@ -170,7 +170,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !game hp mod 5
 > ```
 > 
-> ### `!game thp`
+> #### `!game thp`
 > 
 > Mengatur temporary HP.
 > 
@@ -178,7 +178,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !game thp 10
 > ```
 > 
-> ### `!game longrest`
+> #### `!game longrest`
 > 
 > Melakukan long rest.
 > 
@@ -188,7 +188,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > **Shortcut:** `!lr`
 > 
-> ### `!game shortrest`
+> #### `!game shortrest`
 > 
 > Melakukan short rest.
 > 
