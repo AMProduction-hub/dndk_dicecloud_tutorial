@@ -34,11 +34,11 @@ Halaman ini berisi command Avrae yang paling sering digunakan dalam permainan D&
 
 ## 🟢 Non-Battle
 
-Command yang digunakan **di luar combat** — untuk mengelola character, melakukan dice roll, mencari informasi, dan kebutuhan lainnya.
+> Command yang digunakan **di luar combat** — untuk mengelola character, melakukan dice roll, mencari informasi, dan kebutuhan lainnya.
 
-> [!example]- 🎲 Dice & Rolling
+> [!example] 🎲 Dice & Rolling
 > 
-> ## `!roll`
+> ### `!roll`
 > 
 > Melakukan roll dadu.
 > 
@@ -60,7 +60,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > ---
 > 
-> ## Advantage & Disadvantage
+> ### Advantage & Disadvantage
 > 
 > Melakukan roll **2 kali** dan mengambil hasil yang lebih tinggi (_advantage_) atau lebih rendah (_disadvantage_).
 > 
@@ -71,7 +71,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > ---
 > 
-> ## `!rr`
+> ### `!rr`
 > 
 > Melakukan multiple roll sekaligus.
 > 
@@ -88,9 +88,9 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > > - `!roll 1d20 dis` → disadvantage
 > > - `!r` → shortcut dari `!roll`
 
-> [!example]- 🧙 Character
+> [!example] 🧙 Character
 > 
-> # `!character`
+> ### `!character`
 > 
 > Melihat atau mengganti character aktif.
 > 
@@ -109,7 +109,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !character list
 > ```
 > 
-> # `!import`
+> ### `!import`
 > 
 > Mengimpor character sheet ke Avrae.
 > 
@@ -117,7 +117,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !import <link-character-sheet>
 > ```
 > 
-> # `!sheet`
+> ### `!sheet`
 > 
 > Menampilkan character sheet aktif.
 > 
@@ -125,7 +125,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !sheet
 > ```
 > 
-> # `!update`
+> ### `!update`
 > 
 > Memperbarui character sheet aktif.
 > 
@@ -133,7 +133,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !update
 > ```
 
-> [!example]- 🔎 Lookup Digunakan untuk mencari informasi D&D.
+> [!example] 🔎 Lookup Digunakan untuk mencari informasi D&D.
 > 
 > |Command|Kegunaan|Contoh|
 > |---|---|---|
@@ -146,9 +146,9 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > |`!condition`|Info condition|`!condition poisoned`|
 > |`!rule`|Info rule D&D|`!rule cover`|
 
-> [!example]- ❤️ Character Status
+> [!example] ❤️ Character Status
 > 
-> #### `!game status`
+> ### `!game status`
 > 
 > Melihat status character.
 > 
@@ -156,7 +156,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !game status
 > ```
 > 
-> #### `!game hp`
+> ### `!game hp`
 > 
 > Mengubah HP character.
 > 
@@ -170,7 +170,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !game hp mod 5
 > ```
 > 
-> #### `!game thp`
+> ### `!game thp`
 > 
 > Mengatur temporary HP.
 > 
@@ -178,7 +178,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > !game thp 10
 > ```
 > 
-> #### `!game longrest`
+> ### `!game longrest`
 > 
 > Melakukan long rest.
 > 
@@ -188,7 +188,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > **Shortcut:** `!lr`
 > 
-> #### `!game shortrest`
+> ### `!game shortrest`
 > 
 > Melakukan short rest.
 > 
@@ -198,7 +198,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > **Shortcut:** `!sr`
 
-> [!example]- ✨ Spell & Spellbook
+> [!example] ✨ Spell & Spellbook
 > 
 > ### `!spell`
 > 
@@ -226,7 +226,7 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 > 
 > > [!tip] Penggunaan `!cast` biasanya lebih relevan ketika sedang berada dalam combat, tetapi command ini juga dapat digunakan di luar combat.
 
-> [!example]- 🛠️ Utility
+> [!example] 🛠️ Utility
 > 
 > ### `!ping`
 > 
@@ -248,9 +248,9 @@ Command yang digunakan **di luar combat** — untuk mengelola character, melakuk
 
 ## 🔴 Battle
 
-Command yang digunakan ketika **combat sedang berlangsung**.
+> Command yang digunakan ketika **combat sedang berlangsung**.
 
-> [!example]- ⚔️ Memulai Combat
+> [!example] ⚔️ Memulai Combat
 > 
 > ### `!init begin`
 > 
@@ -272,7 +272,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init add
 > ```
 
-> [!example]- 📋 Initiative Command utama untuk mengatur giliran combat.
+> [!example] 📋 Initiative Command utama untuk mengatur giliran combat.
 > 
 > |Command|Kegunaan|Shortcut|
 > |---|---|---|
@@ -282,7 +282,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > |`!init next`|Berpindah ke combatant berikutnya|`!init n`|
 > |`!init end`|Mengakhiri combat|—|
 
-> [!example]- 🗡️ Attack & Action
+> [!example] 🗡️ Attack & Action
 > 
 > ### `!attack`
 > 
@@ -296,7 +296,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > 
 > > [!tip] Nama attack/action biasanya mengikuti data yang tersedia pada character sheet Anda.
 
-> [!example]- ✨ Cast Spell
+> [!example] ✨ Cast Spell
 > 
 > ### `!cast`
 > 
@@ -320,7 +320,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init cast fireball
 > ```
 
-> [!example]- 🛡️ Check & Saving Throw
+> [!example] 🛡️ Check & Saving Throw
 > 
 > ### `!check`
 > 
@@ -348,7 +348,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init save dex
 > ```
 
-> [!example]- ❤️ HP & Status
+> [!example] ❤️ HP & Status
 > 
 > ### `!game hp`
 > 
@@ -382,7 +382,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 > !init status
 > ```
 
-> [!example]- 🔄 Turn & Combat Management
+> [!example] 🔄 Turn & Combat Management
 > 
 > |Command|Kegunaan|
 > |---|---|
@@ -395,7 +395,7 @@ Command yang digunakan ketika **combat sedang berlangsung**.
 
 ## ❓ Help & Referensi
 
-> [!example]- ❓ Help
+> [!example] ❓ Help
 > 
 > ### `!help`
 > 
