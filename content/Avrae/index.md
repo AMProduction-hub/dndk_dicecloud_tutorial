@@ -110,7 +110,7 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > > - `!roll 1d20 dis` → disadvantage
 > > - `!r` → shortcut dari `!roll`
 
-> [!example]- 🧙 Character
+> [!example] 🧙 Character
 > Command untuk mengatur dan menggunakan character aktif.
 >
 > ## `!character`
@@ -228,7 +228,7 @@ Command yang digunakan **di luar combat** untuk mengelola character, melakukan d
 > !rule cover
 > ```
 
-> [!example]- ❤️ Character Status
+> [!example] ❤️ Character Status
 > Command untuk melihat dan mengelola kondisi character di luar combat.
 >
 > ## `!game status`
